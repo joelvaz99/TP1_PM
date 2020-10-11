@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TP1_PM</string>
+    <string name="welcome" translatable="false">Bem-vindo a app</string>
+    <string name="name" translatable="false">Qual e o seu nome</string>
+    <string name="age">qual é a sua idade</string>
+    <string name="insert">Inserir</string>
+</resources>

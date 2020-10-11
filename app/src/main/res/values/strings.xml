@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">TP1_PM</string>
+    <string name="welcome" translatable="false">Welcome to the app</string>
+    <string name="name" translatable="false">What is your name</string>
+    <string name="age" translatable="false">what is your age</string>
+    <string name="insert" translatable="false">Insert</string>
 </resources>

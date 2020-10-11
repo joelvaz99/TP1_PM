@@ -10,7 +10,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bem-vindo  a app"
+        android:text="@string/welcome"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -32,7 +32,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Qual é o seu nome"
+            android:hint="@string/name"
             android:inputType="text" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -48,7 +48,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Qual é a sua idade"
+            android:hint="@string/age"
             android:inputType="number" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -56,8 +56,8 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="Inserir"
+        android:layout_marginTop="16dp"
+        android:text="@string/insert"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout2" />
